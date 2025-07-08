@@ -26,13 +26,23 @@
     border-radius: 5px;
     margin-right: 23px;
 }
-
+.contact-btn{
+    background-color:white;
+    font-weight: bold;
+    color:  #FD6E0A;
+    padding: 16px 33px;
+    border:  solid #FD6E0A;
+    border-radius: 5px; 
+    
+}
 
  
 .section-title{
     font-size: 35px;
     font-weight: bold;
     color: #181818;
+    margin-top: 130px;
+    margin-bottom:113px;
 }
 .section-description {
     font-size: 18px;
@@ -132,4 +142,34 @@ nav li a{
     box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
     border-radius: 5px;
  }
+ /* resume-section-styles*/
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+   margin-bottom: 20px;
+
+}
+.experience-sub-title{
+    color: #757575;
+    font-size: 20px;
+}
+.experience-description{
+    color: #757575;
+}
+.resume hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-download-CV-btn{
+     margin-top: 50px;
+}
  
