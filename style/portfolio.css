@@ -1,0 +1,204 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    margin-right: 23px;
+}
+.contact-btn{
+    background-color:white;
+    font-weight: bold;
+    color:  #FD6E0A;
+    padding: 16px 33px;
+    border:  solid #FD6E0A;
+    border-radius: 5px; 
+    
+}
+
+ 
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-top: 130px;
+    
+}
+.section-description {
+    font-size: 18px;
+    color: #757575;
+}
+
+.text-center{
+    text-align: center;
+}
+/* header styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 230px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+/* header */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* banner-styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+.banner-content{
+    max-width: 585px;
+    max-height: 356px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-profile-picture{
+    width: 580px;
+}
+
+/* main styles */
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
+ /* about styles */
+ 
+ .about{
+    border-radius: 10px;
+    padding: 150px 130px;
+    text-align: center;
+   
+ }
+ .about-items{
+    display: flex;
+    justify-content: space-around;
+ }
+ .item-description{
+    font-weight: 600;
+ }
+ .item-title{
+    color: #757575;
+ }
+ /* skils section style */
+ .skills{
+       margin-top: 132px;
+ }
+ .skils-container{
+    display: flex;
+    gap: 14px;
+    margin-top: 50px;
+ }
+
+ .skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+ }
+ /* resume-section-styles*/
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+   margin-bottom: 20px;
+
+}
+.experience-sub-title{
+    color: #757575;
+    font-size: 20px;
+}
+.experience-description{
+    color: #757575;
+}
+.resume hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-download-CV-btn{
+     margin-top: 50px;
+     margin-bottom: 106px;
+
+}
+ /* Footer styles */
+ footer{
+    padding: 106px 130px;
+    display: flex;
+    gap: 100px;
+ }
+.footer-column{
+   width: 50%;
+  
+ }
+ .sec-title{
+      font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+ }
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+      height: 64px;
+      border-radius: 5px;
+      background-color: white;
+      width: 461px;
+      display: block;
+      border: none;
+      padding: 10px 20px;
+      margin-bottom: 24px ;
+}
+
+ 
